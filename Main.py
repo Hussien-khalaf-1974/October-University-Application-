@@ -14,8 +14,8 @@ col1, col2 = st.columns([1, 1])
 
 with col1:
     if st.button("🎓 Predicting Specialization ", use_container_width=True):
-        st.switch_page("pages\PredictSpecialty.py")  # Redirects to the Classification Page
+        st.switch_page(r"pages\PredictSpecialty.py")  # Redirects to the Classification Page
 
 with col2:
     if st.button("📄 Predicting Grades App", use_container_width=True):
-        st.switch_page("pages\PredictDegree.py")  # Redirects to the Second Page
+        st.switch_page(r"pages\PredictDegree.py")  # Redirects to the Second Page
